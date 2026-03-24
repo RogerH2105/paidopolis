@@ -1,0 +1,213 @@
+<p><br />
+<style type="text/css">body {
+            font-family: Arial, sans-serif;
+            background-color: #f5f5f5;
+            text-align: center;
+            margin: 0;
+            padding: 0;
+        }
+
+        .container {
+            width: 95%;
+            max-width: 800px;
+            margin: auto;
+            padding: 10px;
+        }
+
+        h1 {
+            background: #fc6e3d;
+            padding: 15px 20px;
+            color: white;
+            border-radius: 5px;
+            font-size: 36px;
+            font-family: "Trebuchet MS", Helvetica, sans-serif;
+            font-weight: bold;
+            line-height: 1.4;
+            margin-bottom: 20px;
+            text-transform: uppercase;
+            display: inline-block;
+        }
+
+        .description {
+            font-size: 14px;
+            margin-bottom: 10px;
+        }
+
+        .program-grid {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: 10px;
+        }
+
+        .program {
+            background: white;
+            padding: 8px;
+            border-radius: 8px;
+            box-shadow: 0px 2px 6px rgba(0, 0, 0, 0.1);
+            text-align: center;
+            width: 45%;
+            border: 1px solid #ddd;
+
+            /* ANIMACIÓN DE ENTRADA */
+            opacity: 0;
+            transform: translateY(20px);
+            animation: fadeInUp 1s ease forwards;
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+        }
+
+        .program:hover {
+            transform: scale(1.03);
+            box-shadow: 0px 6px 12px rgba(0, 0, 0, 0.2);
+        }
+
+        /* Animación escalonada */
+        .program:nth-child(1) { animation-delay: 0.2s; }
+        .program:nth-child(2) { animation-delay: 0.4s; }
+        .program:nth-child(3) { animation-delay: 0.6s; }
+        .program:nth-child(4) { animation-delay: 0.8s; }
+
+        @keyframes fadeInUp {
+            to {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+
+        .program img {
+            width: 100%;
+            height: auto;
+            border-radius: 6px;
+        }
+
+        .program h2 {
+            font-size: 14px;
+            margin: 5px 0;
+            color: #333;
+            line-height: 1.3;
+        }
+
+        a.audio-button {
+            background: #d84315;
+            color: white !important;
+            padding: 6px 10px;
+            text-decoration: none;
+            border-radius: 4px;
+            display: inline-block;
+            margin-top: 5px;
+            font-size: 12px;
+            transition: background-color 0.3s ease, transform 0.2s ease;
+        }
+
+        .audio-button:hover {
+            background-color: #bf360c;
+            transform: scale(1.05);
+        }
+
+        @media (max-width: 600px) {
+            .program {
+                width: 100%;
+            }
+        }
+</style>
+</p>
+
+<div class="container">
+<h1>PROGRAMACI&Oacute;N EMITIDA 2025</h1>
+
+<p class="description">Aqu&iacute; encontrar&aacute;s los programas emitidos durante el 2025. Podr&aacute;s reproducirlos cuantas veces quieras y compartir la p&aacute;gina para que m&aacute;s familias se unan al pa&iacute;s y la ciudad de los ni&ntilde;os.</p>
+
+<div class="program-grid"><!-- Programa 1 -->
+<div class="program"><img alt="Portada 1" src="http://educacion.uis.edu.co/eisi/images/Grupos/G1/contenidos/imagenes/20250402114310-0125.png" />
+<h2><strong>0125 PAID&Oacute;POLIS M&Aacute;S ALL&Aacute; DE LA RADIO</strong></h2>
+<iframe allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" allowfullscreen="" data-testid="embed-iframe" frameborder="0" height="152" loading="lazy" src="https://open.spotify.com/embed/episode/6HDHucV5uMpBGEs2pKakW1?utm_source=generator&amp;t=0" style="border-radius:12px" width="100%"></iframe> <a class="audio-button" href="https://mailuis-my.sharepoint.com/personal/somos_paidopolis_uis_edu_co/_layouts/15/download.aspx?SourceUrl=https://mailuis-my.sharepoint.com/personal/somos_paidopolis_uis_edu_co/Documents/1-RECURSOS%20COMPARTIDOS%20%28NO%20SE%20PUEDE%20BORRAR%29/PROGRAMAS_MP3/2025/0125%20PAIDOPOLIS%20MAS%20ALLA%20DE%20LA%20RADIO.mp3" target="_blank">Descargar Programa</a></div>
+<!-- Programa 2 -->
+
+<div class="program"><img alt="Portada 2" src="http://educacion.uis.edu.co/eisi/images/Grupos/G1/contenidos/imagenes/20250402210217-0225.png" />
+<h2><strong>0225 TRANSFORMANDO DESDE LOS MAPAS</strong></h2>
+<iframe allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" allowfullscreen="" data-testid="embed-iframe" frameborder="0" height="152" loading="lazy" src="https://open.spotify.com/embed/episode/79qhUWQgKSyvTuPRSZ9kVJ?utm_source=generator&amp;t=0" style="border-radius:12px" width="100%"></iframe> <a class="audio-button" href="https://mailuis-my.sharepoint.com/personal/somos_paidopolis_uis_edu_co/_layouts/15/download.aspx?SourceUrl=%2Fpersonal%2Fsomos_paidopolis_uis_edu_co%2FDocuments%2F1-RECURSOS%20COMPARTIDOS%20%28NO%20SE%20PUEDE%20BORRAR%29%2FPROGRAMAS_MP3%2F2025%2F0225%20TRANSFORMANDO%20DESDE%20LOS%20MAPAS%20abril%203.mp3" target="_blank">Descargar Programa</a></div>
+<!-- Programa 3 -->
+
+<div class="program"><img alt="Portada 3" src="http://educacion.uis.edu.co/eisi/images/Grupos/G1/contenidos/imagenes/20250403171335-grid_igportadas.png" />
+<h2><strong>0325 LEGADO DE LAS CULTURAS<br />
+AFRODESCENDIENTES</strong></h2>
+<iframe allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" allowfullscreen="" data-testid="embed-iframe" frameborder="0" height="152" loading="lazy" src="https://open.spotify.com/embed/episode/657VgcXUtkAZnPJab0ofFl?utm_source=generator&amp;t=0" style="border-radius:12px" width="100%"></iframe> <a class="audio-button" href="https://mailuis-my.sharepoint.com/personal/somos_paidopolis_uis_edu_co/_layouts/15/download.aspx?SourceUrl=%2Fpersonal%2Fsomos_paidopolis_uis_edu_co%2FDocuments%2F1-RECURSOS%20COMPARTIDOS%20%28NO%20SE%20PUEDE%20BORRAR%29%2FPROGRAMAS_MP3%2F2025%2F0325%20LEGADO%20CULTURAS%20AFRO%20abril%2010.mp3">Descargar Programa</a></div>
+<!-- Programa 4 -->
+
+<div class="program"><img alt="Portada 4" src="http://educacion.uis.edu.co/eisi/images/Grupos/G1/contenidos/imagenes/20250424113334-grid_igportadas.png" />
+<h2><strong>0425 EL PODER DE LA PALABRA</strong></h2>
+<iframe allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" allowfullscreen="" data-testid="embed-iframe" frameborder="0" height="152" loading="lazy" src="https://open.spotify.com/embed/episode/0iXWw7hq08TzQh8Hy2nbqq?utm_source=generator&amp;theme=0&amp;t=0" style="border-radius:12px" width="100%"></iframe>
+
+<p><a class="audio-button" href="https://mailuis-my.sharepoint.com/personal/somos_paidopolis_uis_edu_co/_layouts/15/download.aspx?SourceUrl=%2Fpersonal%2Fsomos_paidopolis_uis_edu_co%2FDocuments%2F1-RECURSOS%20COMPARTIDOS%20%28NO%20SE%20PUEDE%20BORRAR%29%2FPROGRAMAS_MP3%2F2025%2F0425%20EL%20PODER%20DE%20LAS%20PALABRAS%20abril%2024.mp3">Descargar Programa</a></p>
+</div>
+<!-- Programa 5 -->
+
+<div class="program"><img alt="Portada 5" src="http://educacion.uis.edu.co/eisi/images/Grupos/G1/contenidos/imagenes/20250508113924-grid_igportadas.png" />
+<h2><strong>0525 &iquest;D&Oacute;NDE NACEN LOS VALORES?</strong></h2>
+<iframe allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" allowfullscreen="" data-testid="embed-iframe" frameborder="0" height="152" loading="lazy" src="https://open.spotify.com/embed/episode/65PZGOPjRmmA7AMP8mIbp7?utm_source=generator&amp;t=0" style="border-radius:12px" width="100%"></iframe> <a class="audio-button" href="https://mailuis-my.sharepoint.com/personal/somos_paidopolis_uis_edu_co/_layouts/15/download.aspx?SourceUrl=%2Fpersonal%2Fsomos_paidopolis_uis_edu_co%2FDocuments%2F1-RECURSOS%20COMPARTIDOS%20%28NO%20SE%20PUEDE%20BORRAR%29%2FPROGRAMAS_MP3%2F2025%2F0525%20DONDE%20NACEN%20LOS%20VALORES%20mayo%208.mp3">Descargar Programa</a></div>
+<!-- Programa 6 -->
+
+<div class="program"><img alt="Portada 6" src="http://educacion.uis.edu.co/eisi/images/Grupos/G1/contenidos/imagenes/20250515121304-grid_igportadas.png" />
+<h2><strong>0625 SIGLO Y MEDIO DE COMPROMISO EDUCATIVO</strong></h2>
+<iframe allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" allowfullscreen="" data-testid="embed-iframe" frameborder="0" height="152" loading="lazy" src="https://open.spotify.com/embed/episode/32cbGynz4xCuiZxyUttJ83?utm_source=generator&amp;t=0" style="border-radius:12px" width="100%"></iframe>
+
+<p><a class="audio-button" href="https://mailuis-my.sharepoint.com/personal/somos_paidopolis_uis_edu_co/_layouts/15/download.aspx?SourceUrl=%2Fpersonal%2Fsomos_paidopolis_uis_edu_co%2FDocuments%2F1-RECURSOS%20COMPARTIDOS%20%28NO%20SE%20PUEDE%20BORRAR%29%2FPROGRAMAS_MP3%2F2025%2F0625%20SIGLO%20Y%20MEDIO%20DE%20COMPROMISO%20EDUCATIVO%20mayo%2015.mp3">Descargar Programa</a></p>
+</div>
+<!-- Programa 7 -->
+
+<div class="program"><img alt="Portada 7" src="http://educacion.uis.edu.co/eisi/images/Grupos/G1/contenidos/imagenes/20250522074122-07255.jpg" />
+<h2><strong>0725 ENTRE NUBES Y ORQU&Iacute;DEAS</strong><span style="background-color:rgb(255, 255, 255); color:rgb(36, 36, 36); font-family:aptos narrow,calibri,sans-serif,mongolian baiti,microsoft yi baiti,javanese text,yu gothic; font-size:14.6667px">&nbsp;</span></h2>
+<iframe allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" allowfullscreen="" data-testid="embed-iframe" frameborder="0" height="152" loading="lazy" src="https://open.spotify.com/embed/episode/1GvM7yB2dXpGqI99vhiSgh?utm_source=generator&amp;t=0" style="border-radius:12px" width="100%"></iframe> <a class="audio-button" href="https://mailuis-my.sharepoint.com/personal/somos_paidopolis_uis_edu_co/_layouts/15/download.aspx?SourceUrl=%2Fpersonal%2Fsomos_paidopolis_uis_edu_co%2FDocuments%2F1-RECURSOS%20COMPARTIDOS%20%28NO%20SE%20PUEDE%20BORRAR%29%2FPROGRAMAS_MP3%2F2025%2F0725%20ENTRE%20NUBES%20Y%20ORQU%C3%8DDEAS%20mayo%2022.mp3">Descargar Programa</a></div>
+<!-- Programa 8 -->
+
+<div class="program"><img alt="Portada 8" src="http://educacion.uis.edu.co/eisi/images/Grupos/G1/contenidos/imagenes/20250529082634-0825.jpg" />
+<h2><strong>0825 VIAJANDO POR EL MUNDO: BRASIL</strong><span style="background-color:rgb(255, 255, 255); color:rgb(36, 36, 36); font-family:aptos narrow,calibri,sans-serif,mongolian baiti,microsoft yi baiti,javanese text,yu gothic; font-size:14.6667px">&nbsp;</span></h2>
+<iframe allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" allowfullscreen="" data-testid="embed-iframe" frameborder="0" height="152" loading="lazy" src="https://open.spotify.com/embed/episode/7cWj2XJZnvG4MKoOBQrQZu?utm_source=generator&amp;t=0" style="border-radius:12px" width="100%"></iframe>
+
+<p><a class="audio-button" href="https://mailuis-my.sharepoint.com/personal/somos_paidopolis_uis_edu_co/_layouts/15/download.aspx?SourceUrl=%2Fpersonal%2Fsomos_paidopolis_uis_edu_co%2FDocuments%2F1-RECURSOS%20COMPARTIDOS%20%28NO%20SE%20PUEDE%20BORRAR%29%2FPROGRAMAS_MP3%2F2025%2F0825%20VIAJANDO%20POR%20EL%20MUNDO%20BRASIL%20mayo%2029.mp3">Descargar Programa</a></p>
+</div>
+<!-- Programa 9 -->
+
+<div class="program"><img alt="Portada 9" src="http://educacion.uis.edu.co/eisi/images/Grupos/G1/contenidos/imagenes/20250605180552-grid_igportadas_1.png" />
+<h2><strong>0925 CUID&Aacute;NDONOS EN EL CAMINO</strong></h2>
+<iframe allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" allowfullscreen="" data-testid="embed-iframe" frameborder="0" height="152" loading="lazy" src="https://open.spotify.com/embed/episode/1stvQGdtuc7wHrWoHTi4VT?utm_source=generator&amp;t=0" style="border-radius:12px" width="100%"></iframe> <a class="audio-button" href="https://mailuis-my.sharepoint.com/personal/somos_paidopolis_uis_edu_co/_layouts/15/download.aspx?SourceUrl=%2Fpersonal%2Fsomos_paidopolis_uis_edu_co%2FDocuments%2F1-RECURSOS%20COMPARTIDOS%20%28NO%20SE%20PUEDE%20BORRAR%29%2FPROGRAMAS_MP3%2F2025%2F0925%20CUID%C3%81NDONOS%20EN%20EL%20CAMINO%20junio%205.mp3">Descargar Programa</a></div>
+<!-- Programa 10 -->
+
+<div class="program"><img alt="Portada 10" src="http://educacion.uis.edu.co/eisi/images/Grupos/G1/contenidos/imagenes/20250710152312-1025.png" />
+<h2><strong>1025 AVES A LA VISTA</strong></h2>
+<iframe allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" allowfullscreen="" data-testid="embed-iframe" frameborder="0" height="152" loading="lazy" src="https://open.spotify.com/embed/episode/2Xrbx0JYFACPrM67GOXEew?utm_source=generator&amp;t=0" style="border-radius:12px" width="100%"></iframe>
+
+<p><a class="audio-button" href="https://mailuis-my.sharepoint.com/personal/somos_paidopolis_uis_edu_co/_layouts/15/download.aspx?SourceUrl=%2Fpersonal%2Fsomos_paidopolis_uis_edu_co%2FDocuments%2F1-RECURSOS%20COMPARTIDOS%20%28NO%20SE%20PUEDE%20BORRAR%29%2FPROGRAMAS_MP3%2F2025%2F1025%20AVES%20A%20LA%20VISTA%20junio%2012.mp3">Descargar Programa</a></p>
+</div>
+<!-- Programa 11 -->
+
+<div class="program"><img alt="Portada 11" src="http://educacion.uis.edu.co/eisi/images/Grupos/G1/contenidos/imagenes/20250710152330-1125.png" />
+<h2><strong>1125 APRENDIENDO A SER FELICES:<br />
+MI PROYECTO DE VIDA</strong></h2>
+<iframe allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" allowfullscreen="" data-testid="embed-iframe" frameborder="0" height="152" loading="lazy" src="https://open.spotify.com/embed/episode/6YV69m0fiLiFLbpOmcgJKV?utm_source=generator&amp;t=0" style="border-radius:12px" width="100%"></iframe> <a class="audio-button" href="https://mailuis-my.sharepoint.com/personal/somos_paidopolis_uis_edu_co/_layouts/15/download.aspx?SourceUrl=%2Fpersonal%2Fsomos_paidopolis_uis_edu_co%2FDocuments%2F1-RECURSOS%20COMPARTIDOS%20%28NO%20SE%20PUEDE%20BORRAR%29%2FPROGRAMAS_MP3%2F2025%2F1125%20APRENDIENDO%20A%20SER%20FELICES%20julio%2010.mp3">Descargar Programa</a></div>
+<!-- Programa 12 -->
+
+<div class="program"><img alt="Portada 12" src="http://educacion.uis.edu.co/eisi/images/Grupos/G1/contenidos/imagenes/20250725133015-1225.png" />
+<h2><strong>1225 MI FUERZA, MI VOZ</strong></h2>
+<iframe allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" allowfullscreen="" data-testid="embed-iframe" frameborder="0" height="152" loading="lazy" src="https://open.spotify.com/embed/episode/0qkHHXo4SqzF26ZEsoEBtf?utm_source=generator&amp;t=0" style="border-radius:12px" width="100%"></iframe>
+
+<p><a class="audio-button" href="https://mailuis-my.sharepoint.com/personal/somos_paidopolis_uis_edu_co/_layouts/15/download.aspx?SourceUrl=%2Fpersonal%2Fsomos_paidopolis_uis_edu_co%2FDocuments%2F1-RECURSOS%20COMPARTIDOS%20%28NO%20SE%20PUEDE%20BORRAR%29%2FPROGRAMAS_MP3%2F2025%2F1225%20MI%20FUERZA%20MI%20VOZ%20julio%2024.mp3">Descargar Programa</a></p>
+</div>
+<!-- Programa 13 -->
+
+<div class="program"><img alt="Portada 13" src="http://educacion.uis.edu.co/eisi/images/Grupos/G1/contenidos/imagenes/20250810195621-grid_igportadas.png" />
+<h2><strong>1325 ENTRE VI&Ntilde;ETAS Y LETRAS</strong></h2>
+<iframe allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" allowfullscreen="" data-testid="embed-iframe" frameborder="0" height="152" loading="lazy" src="https://open.spotify.com/embed/episode/29oxk639AMphdU29FkyQWO?utm_source=generator&amp;t=0" style="border-radius:12px" width="100%"></iframe>
+
+<p><a class="audio-button" href="https://mailuis-my.sharepoint.com/personal/somos_paidopolis_uis_edu_co/_layouts/15/download.aspx?SourceUrl=%2Fpersonal%2Fsomos_paidopolis_uis_edu_co%2FDocuments%2F1-RECURSOS%20COMPARTIDOS%20%28NO%20SE%20PUEDE%20BORRAR%29%2FPROGRAMAS_MP3%2F2025%2F1325%20ENTRE%20VI%5FETAS%20Y%20LETRAS%20julio%2031.mp3">Descargar Programa</a></p>
+</div>
+<!-- Programa 13 -->
+
+<div class="program"><img alt="Portada 14" src="http://educacion.uis.edu.co/eisi/images/Grupos/G1/contenidos/imagenes/20250815162952-97.png" />
+<h2><strong>1425 LA MAGIA DE LA METAMORFOSIS</strong></h2>
+<iframe allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" allowfullscreen="" data-testid="embed-iframe" frameborder="0" height="152" loading="lazy" src="https://open.spotify.com/embed/episode/50gVWjHtJXvUgKcHpY8l3r?utm_source=generator&amp;t=0" style="border-radius:12px" width="100%"></iframe>
+
+<p><a class="audio-button" href="https://mailuis-my.sharepoint.com/personal/somos_paidopolis_uis_edu_co/_layouts/15/download.aspx?share=ESDmVlYSs8JLoSvDZrgSMMgBf-4M5g4aPwd19xBbKKS1SA">Descargar Programa</a></p>
+</div>
+</div>
+</div>
